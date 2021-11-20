@@ -3,7 +3,6 @@ import numpy as np
 import csv
 import math
 import pandas as pd
-from csvLoader import csv_loader
 from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score, KFold
 from sklearn.preprocessing import StandardScaler, PolynomialFeatures, MinMaxScaler
 from sklearn.impute import SimpleImputer
